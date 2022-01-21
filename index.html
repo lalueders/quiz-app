@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/6a3adbf46d.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <h1>Quiz-App</h1>
     </header>
     <main>
-      <section>
-        <button>Bookmark</button>
-        <h2>Question:</h2>
-        <article>
+      <section class="card">
+        <button class="card__bookmark">
+          <i class="far fa-bookmark fa-3x"></i>
+        </button>
+        <h2 class="card__heading">Question:</h2>
+        <p class="card__question">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
-        </article>
-        <button>Show Answer</button>
-        <ul>
-          <li>category 1</li>
-          <li>category 2</li>
-          <li>category 3</li>
-          <li>category 4</li>
+        </p>
+        <details class="card__button">
+          <summary class="card__answer">Show answer</summary>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </details>
+        <ul class="card__list">
+          <li class="card__list-item">category 1</li>
+          <li class="card__list-item">category 2</li>
+          <li class="card__list-item">category 3</li>
+          <li class="card__list-item">category 4</li>
         </ul>
       </section>
     </main>
