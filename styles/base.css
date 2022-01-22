@@ -7,8 +7,26 @@
 }
 
 html {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 112.5%;
+  line-height: 1.3;
 }
 
 body {
-  max-width: 600px;
+  max-width: 800px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }

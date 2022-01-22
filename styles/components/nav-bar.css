@@ -1,0 +1,25 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-items: stretch;
+  align-items: center;
+  grid-gap: 4px;
+  background-color: black;
+  padding: 2px;
+}
+
+.nav__item {
+  display: grid;
+  width: 100%;
+  color: black;
+  justify-self: center;
+  background-color: white;
+  padding: 0.2em;
+}
+
+.nav__icon {
+  height: 50px;
+  width: 50px;
+  justify-self: center;
+  align-self: center;
+}
