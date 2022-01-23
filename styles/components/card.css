@@ -1,10 +1,10 @@
 .card {
-  border: 4px solid #2e2e2e;
+  border: 4px solid #4a555f;
   border-radius: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 1em;
+  margin: 3em 2em;
   padding: 2em;
 }
 
@@ -30,27 +30,29 @@
 }
 
 .card__button--show {
-  width: 50%;
+  max-width: 800px;
+  min-width: 50%;
   margin: 2em auto;
-  border: 2px solid #2e2e2e;
+  border: 2px solid #4a555f;
   border-radius: 4px;
   text-align: center;
   background-color: white;
   padding: 1em 0.5em;
   font-family: "Open Sans", Helvetica, sans-serif;
-  font-size: 112.5%;
+  font-size: 100%;
 }
 
 .card__button--hide {
-  width: 50%;
+  max-width: 800px;
+  min-width: 50%;
   margin: 2em auto;
-  border: 2px solid #2e2e2e;
+  border: 2px solid #4a555f;
   border-radius: 4px;
   text-align: center;
   background-color: white;
   padding: 1em 0.5em;
   font-family: "Open Sans", Helvetica, sans-serif;
-  font-size: 112.5%;
+  font-size: 100%;
 }
 
 .card__answer {
@@ -68,7 +70,7 @@
 
 .card__list-item {
   display: inline;
-  border: 1px solid #2e2e2e;
+  border: 1px solid #4a555f;
   border-radius: 5px;
   padding: 4px 6px;
 }
