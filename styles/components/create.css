@@ -1,0 +1,21 @@
+.create {
+  margin: 2em;
+}
+
+.create__heading {
+  font-size: 130%;
+  color: var(--color-slategrey-dark);
+}
+
+.create__button {
+  justify-self: center;
+  border: 2px solid #4a555f;
+  border-radius: 4px;
+  text-align: center;
+  background-color: var(--color-slategrey-dark);
+  padding: 1em 5em;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 100%;
+  color: var(--color-white);
+  line-height: 1;
+}

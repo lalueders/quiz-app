@@ -49,3 +49,8 @@ h2,
 h3 {
   line-height: 1;
 }
+
+form {
+  display: grid;
+  gap: 20px;
+}
