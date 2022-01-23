@@ -4,7 +4,7 @@ export default {
   title: "Components/Navigation",
 };
 
-export const cardQuestionUnchecked = () => `
+export const MainNav = () => `
 <nav class="nav">
   <a class="nav__item" href="/index.html">
     <svg
