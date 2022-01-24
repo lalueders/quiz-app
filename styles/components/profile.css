@@ -33,7 +33,7 @@
 
 .profile__skills-item {
   display: inline;
-  border: 1px solid var(--color-slategrey-dark);
+  border: 1px solid var(--color-slategray-dark);
   border-radius: 5px;
   padding: 4px 6px;
 }
@@ -44,7 +44,7 @@
   border: 2px solid #4a555f;
   border-radius: 4px;
   text-align: center;
-  background-color: var(--color-slategrey-dark);
+  background-color: var(--color-slategray-dark);
   padding: 6px 16px;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 100%;
