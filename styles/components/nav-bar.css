@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 4px;
-  background-color: #4a555f;
+  background-color: var(--color-slategray-dark);
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 0.3em;
@@ -17,9 +17,20 @@
 .nav__item {
   display: grid;
   width: 100%;
-  color: white;
+  color: var(--color-white);
   justify-self: center;
-  background: slategray;
+  background: var(--color-slategray);
+  border-radius: 4px;
+  padding: 0.8em;
+  margin: 0.3em;
+}
+
+.nav__item--active {
+  display: grid;
+  width: 100%;
+  color: var(--color-white);
+  justify-self: center;
+  background: var(--color-slategray-darker);
   border-radius: 4px;
   padding: 0.8em;
   margin: 0.3em;

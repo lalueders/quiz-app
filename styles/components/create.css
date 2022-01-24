@@ -4,7 +4,7 @@
 
 .create__heading {
   font-size: 130%;
-  color: var(--color-slategrey-dark);
+  color: var(--color-slategray-dark);
 }
 
 .create__button {
@@ -12,7 +12,7 @@
   border: 2px solid #4a555f;
   border-radius: 4px;
   text-align: center;
-  background-color: var(--color-slategrey-dark);
+  background: var(--color-slategray-dark);
   padding: 1em 5em;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 100%;
