@@ -21,14 +21,14 @@
   </head>
   <body>
     <div class="app-grid h-100vh">
-      <h1 class="bg-hotpink heading">Quiz-App</h1>
+      <h1 class="bg-head heading">Quiz-App</h1>
       <main class="app-grid__scrollarea">
         <div id="top" class="h-100vh">
           <section class="card">
-            <button data-js="button" class="card__bookmark">
+            <button data-js="button-bookmark" class="card__bookmark">
               <svg
-                data-js="check"
-                class="card__bookmark-icon--unchecked"
+                class="hidden card__bookmark-icon"
+                data-js="bookmark-unchecked"
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="far"
@@ -44,8 +44,8 @@
                 />
               </svg>
               <svg
-                data-js="uncheck"
-                class="card__bookmark-icon--checked hidden"
+                class="card__bookmark-icon"
+                data-js="bookmark-checked"
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"
@@ -56,24 +56,24 @@
                 viewBox="0 0 384 512"
               >
                 <path
+                  fill="currentColor"
                   d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
                 />
               </svg>
             </button>
-            <h2 class="card__heading">Question:</h2>
-            <p class="card__question">
+            <h2 class="mb-10">Question:</h2>
+            <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
-            <button data-js="buttonAnswer" class="card__button--hide">
-              <span data-js="show-answer">Show Answer</span>
-              <span data-js="hide-answer" class="hidden">Hide answer</span>
+            <button data-js="button-card" class="card__button">
+              Show Answer
             </button>
-            <article data-js="answer" class="hidden card__answer">
-              <h2 class="card__heading">Answer:</h2>
-              <p>
+            <article data-js="answer-text" class="hidden mr-2em ml-2em">
+              <h2 class="mb-10">Answer:</h2>
+              <p class="mb-2em">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley

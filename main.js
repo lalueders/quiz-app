@@ -1,19 +1,25 @@
-const button = document.querySelector('[data-js="button"]');
-const bookmarkCheck = document.querySelector('[data-js="check"]');
-const bookmarkUncheck = document.querySelector('[data-js="uncheck"]');
+//Check/uncheck bookmark
 
-button.addEventListener('click', () => {
+const buttonBookmark = document.querySelector('[data-js="button-bookmark"]');
+const bookmarkCheck = document.querySelector('[data-js="bookmark-checked"]');
+const bookmarkUncheck = document.querySelector(
+  '[data-js="bookmark-unchecked"]'
+);
+
+buttonBookmark.addEventListener('click', () => {
   bookmarkCheck.classList.toggle('hidden');
   bookmarkUncheck.classList.toggle('hidden');
 });
 
-const answer = document.querySelector('[data-js="answer"]');
-const buttonAnswer = document.querySelector('[data-js="buttonAnswer"]');
-const buttonShow = document.querySelector('[data-js="show-answer"]');
-const buttonHide = document.querySelector('[data-js="hide-answer"]');
+// Show/hide answer and change button text accordingly //
 
-buttonAnswer.addEventListener('click', () => {
-  answer.classList.toggle('hidden');
-  buttonShow.classList.toggle('hidden');
-  buttonHide.classList.toggle('hidden');
+const answerText = document.querySelector('[data-js="answer-text"]');
+const buttonCard = document.querySelector('[data-js="button-card"]');
+
+buttonCard.addEventListener('click', () => {
+  answerText.classList.toggle('hidden');
+  if (buttonCard.textContent === 'Hide Answer') {
+    return (buttonCard.textContent = 'Show Answer');
+  }
+  return (buttonCard.textContent = 'Hide Answer');
 });
