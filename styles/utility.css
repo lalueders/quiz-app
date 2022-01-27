@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
 }
@@ -5,12 +9,25 @@
 .mb-05em {
   margin-bottom: 0.5em;
 }
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .mb-2em {
   margin-bottom: 2em;
 }
 
 .mb-5em {
   margin-bottom: 5em;
+}
+
+.ml-2em {
+  margin-left: 2em;
+}
+
+.mr-2em {
+  margin-right: 2em;
 }
 
 .h-500 {
@@ -29,6 +46,6 @@
   background-color: coral;
 }
 
-.bg-hotpink {
+.bg-head {
   background-color: slategray;
 }
