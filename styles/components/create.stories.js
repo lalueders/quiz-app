@@ -1,7 +1,7 @@
-import "./create.css";
+import './create.css';
 
 export default {
-  title: "Components/Create",
+  title: 'Components/Create',
 };
 
 export const Intro = () =>

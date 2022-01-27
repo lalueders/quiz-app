@@ -1,7 +1,7 @@
-import "./profile.css";
+import './profile.css';
 
 export default {
-  title: "Components/Profile",
+  title: 'Components/Profile',
 };
 
 export const User = () =>

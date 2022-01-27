@@ -1,7 +1,7 @@
-import "./nav-bar.css";
+import './nav-bar.css';
 
 export default {
-  title: "Components/Navigation",
+  title: 'Components/Navigation',
 };
 
 export const MainNav = () => `
