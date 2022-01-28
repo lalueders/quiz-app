@@ -12,12 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <script
-      defer
-      language="javascript"
-      type="text/javascript"
-      src="./main.js"
-    ></script>
+    <script defer language="javascript" type="module" src="./index.js"></script>
   </head>
   <body>
     <div class="app-grid h-100vh">
@@ -32,43 +27,66 @@
               aliquam. Omnis nostrum tempore praesentium doloremque et beatae
               cum expedita cupiditate voluptates.
             </p>
-            <form aria-labelledby="create-question" autocomplete="off">
-              <label class="create__heading" for="add-question"
-                >Add your question here:</label
-              >
+            <form
+              aria-labelledby="create-question"
+              for="add-question"
+              autocomplete="off"
+            >
+              <section data-js="create">
+                <div class="create__flex-ctn">
+                  <h3 class="create__heading" id="question-heading">
+                    Add your question here:
+                  </h3>
+                  <output class="create__char-count" data-js="output"></output>
+                </div>
+                <textarea
+                  aria-labelledby="question-heading"
+                  data-js="input"
+                  class="mb-2em create__text"
+                  type="text"
+                  name="add-question"
+                  id="add-question"
+                  cols="20"
+                  rows="8"
+                  maxlength="300"
+                  required
+                ></textarea>
+              </section>
+              <section data-js="create">
+                <div class="create__flex-ctn">
+                  <h3 class="create__heading" id="answer-heading">
+                    Add your answer here:
+                  </h3>
+                  <output class="create__char-count" data-js="output"></output>
+                </div>
+                <textarea
+                  aria-labelledby="answer-heading"
+                  data-js="input"
+                  class="mb-2em create__text"
+                  type="text"
+                  name="add-answer"
+                  id="add-question"
+                  cols="20"
+                  rows="8"
+                  maxlength="300"
+                  required
+                ></textarea>
+              </section>
+              <h3 class="create__heading--small" id="keyword-heading">
+                Don't forget to add some keywords to your question:
+              </h3>
               <textarea
-                class="mb-2em create__question"
-                type="text"
-                name="add-question"
-                id="add-question"
-                cols="20"
-                rows="8"
-                placeholder="What birds do not lay eggs? ..."
-                required
-              ></textarea>
-              <label class="create__heading" for="add-answer"
-                >Add your answer here:</label
-              >
-              <textarea
-                class="mb-2em create__answer"
+                aria-labelledby="keyword-heading"
+                data-js="input"
+                class="mb-2em create__text"
                 type="text"
                 name="add-answer"
-                id="add-answer"
-                cols="20"
-                rows="8"
-                placeholder="Male birds ..."
+                id="add-question"
+                cols="1"
+                rows="1"
+                maxlength="300"
                 required
               ></textarea>
-              <label class="create__heading--small" for="keywords"
-                >Don't forget to add some keywords to your question:</label
-              >
-              <input
-                class="mb-2em create__keywords"
-                type="text"
-                id="keywords"
-                placeholder="Movies, Sports, Music, Nature, Cars, ..."
-                required
-              />
               <button class="create__button" type="submit">Submit</button>
             </form>
           </section>
