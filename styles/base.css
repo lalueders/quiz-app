@@ -1,6 +1,6 @@
-*,
 *::before,
-*::after {
+*::after,
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -51,6 +51,5 @@ h3 {
 }
 
 form {
-  display: grid;
-  gap: 20px;
+  border: none;
 }

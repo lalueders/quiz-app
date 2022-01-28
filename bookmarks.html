@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz-App | Bookmarks</title>
+    <title>Quiz-App | Quiz</title>
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,19 +12,14 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <script
-      defer
-      language="javascript"
-      type="text/javascript"
-      src="./main.js"
-    ></script>
+    <script defer language="javascript" type="module" src="./index.js"></script>
   </head>
   <body>
     <div class="app-grid h-100vh">
       <h1 class="bg-head heading">Bookmarks</h1>
       <main class="app-grid__scrollarea">
         <div class="h-100vh">
-          <section class="card">
+          <section class="card" data-js="card">
             <button data-js="button-bookmark" class="card__bookmark">
               <svg
                 class="hidden card__bookmark-icon"
