@@ -1,43 +1,40 @@
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
 .nav-bg {
   width: 100%;
-  height: 100;
   background-color: #4a555f;
 }
 
 .nav {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 4px;
-  background-color: var(--color-slategray-dark);
-  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 0.3em;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px;
 }
 
 .nav__item {
-  display: grid;
-  width: 100%;
-  color: var(--color-white);
-  justify-self: center;
-  background: var(--color-slategray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0%;
+  color: #ffffff;
   border-radius: 4px;
-  padding: 0.8em;
-  margin: 0.3em;
-}
-
-.nav__item--active {
-  display: grid;
-  width: 100%;
-  color: var(--color-white);
-  justify-self: center;
-  background: var(--color-slategray-darker);
-  border-radius: 4px;
-  padding: 0.8em;
-  margin: 0.3em;
+  padding: 10px;
+  background: #708090;
+  cursor: pointer;
 }
 
 .nav__icon {
   height: 32px;
-  justify-self: center;
-  align-self: center;
+  width: 32px;
+}
+
+.nav__is-active {
+  background: #2e3943;
 }

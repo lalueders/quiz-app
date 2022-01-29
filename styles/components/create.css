@@ -1,7 +1,3 @@
-.create {
-  margin: 2em;
-}
-
 .create__flex-ctn {
   width: 100%;
   display: flex;
@@ -34,7 +30,7 @@
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 100%;
   color: var(--color-slategray-dark);
-  padding: 2px 5px;
+  padding: 5px 10px;
 }
 
 .create__heading--small {
@@ -47,7 +43,6 @@
 .create__button {
   display: flex;
   margin: 0 auto;
-  border: 2px solid #4a555f;
   border-radius: 4px;
   text-align: center;
   background-color: var(--color-slategray-dark);
