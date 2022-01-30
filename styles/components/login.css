@@ -1,0 +1,33 @@
+.login {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.login__form {
+  color: var(--color-white);
+  font-size: 90%;
+  background: var(--color-slategray);
+  margin: 2em;
+  padding: 2em 2em;
+  display: grid;
+  grid-gap: 8px;
+  border-radius: 10px;
+}
+
+.button-login {
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  background: var(--color-slategray-darker);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login__input {
+  border-radius: 2px;
+  border: 0;
+  padding: 4px;
+  color: var(--color-slategray-dark);
+}
